@@ -25,7 +25,7 @@ export default function FaviconReactPage() {
                     Learn how to add and configure favicons in your React application, whether you&apos;re using Create React App, Vite, or a custom build.
                 </p>
                 <Link
-                    href="/svg-to-ico-converter"
+                    href="/image-to-favicon-converter"
                     className="inline-flex items-center gap-2 mt-6 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 px-6 py-3 text-sm font-bold text-white shadow-lg glow-button hover:scale-[1.02] active:scale-[0.98] transition-all"
                 >
                     ⚡ Generate Favicon Now
@@ -40,7 +40,7 @@ export default function FaviconReactPage() {
                     Create React App comes with a default favicon. To replace it with your own:
                 </p>
                 <ul>
-                    <li>Generate your favicon package using our <Link href="/svg-to-ico-converter" className="text-violet-400 hover:underline">Image to Favicon converter</Link></li>
+                    <li>Generate your favicon package using our <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">Image to Favicon converter</Link></li>
                     <li>Replace <code>public/favicon.ico</code> with your new ICO file</li>
                     <li>Add additional PNG files to the <code>public/</code> directory</li>
                     <li>Update <code>public/index.html</code> with the proper link tags</li>
@@ -150,7 +150,7 @@ function MyPage() {
                 <h2>Generate Your React Favicon</h2>
                 <p>
                     Use our{' '}
-                    <Link href="/svg-to-ico-converter" className="text-violet-400 hover:underline">
+                    <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
                         free Image to Favicon converter
                     </Link>{' '}
                     to generate all the favicon files you need. Download the full package, extract to <code>public/</code>,

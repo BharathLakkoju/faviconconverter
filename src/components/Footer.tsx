@@ -25,7 +25,7 @@ export default function Footer() {
                         <h4 className="text-sm font-semibold text-foreground mb-3">Tools</h4>
                         <ul className="space-y-2">
                             {[
-                                { href: '/svg-to-ico-converter', label: 'Image to Favicon Converter' },
+                                { href: '/image-to-favicon-converter', label: 'Image to Favicon Converter' },
                                 { href: '/favicon-generator', label: 'Favicon Generator' },
                                 { href: '/svg-to-favicon', label: 'PNG to Favicon' },
                             ].map((link) => (

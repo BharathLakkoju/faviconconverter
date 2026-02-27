@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://svgtoico.dev"),
   title: {
     default: "Free Image to Favicon Converter – Generate Website Icons Online",
     template: "%s | Image to Favicon Converter",
@@ -39,12 +40,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Image to Favicon Converter",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Image to Favicon Converter – Convert any image to website icons",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Free Image to Favicon Converter – Website Icon Generator",
     description:
       "Convert any image to favicon instantly. Generate website icons for web apps. Client-side processing — your files stay private.",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,

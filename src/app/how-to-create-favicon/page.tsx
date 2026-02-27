@@ -60,7 +60,7 @@ export default function HowToCreateFaviconPage() {
                 <h2>Step 3: Convert to Favicon</h2>
                 <p>
                     Use our{' '}
-                    <Link href="/svg-to-ico-converter" className="text-violet-400 hover:underline">
+                    <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
                         Image to Favicon converter
                     </Link>{' '}
                     to generate all the sizes you need:
@@ -163,7 +163,7 @@ export default function HowToCreateFaviconPage() {
                 <h2>Get Started</h2>
                 <p>
                     Ready to create your favicon? Our{' '}
-                    <Link href="/svg-to-ico-converter" className="text-violet-400 hover:underline">
+                    <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
                         Image to Favicon converter
                     </Link>{' '}
                     makes it easy — generate all the sizes and formats you need from a single SVG file, completely free

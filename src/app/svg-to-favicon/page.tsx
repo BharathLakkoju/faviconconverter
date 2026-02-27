@@ -22,7 +22,7 @@ export default function SvgToFaviconPage() {
                     The fastest way to convert your SVG logo into a complete favicon set for any website or web app.
                 </p>
                 <Link
-                    href="/svg-to-ico-converter"
+                    href="/image-to-favicon-converter"
                     className="inline-flex items-center gap-2 mt-6 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 px-6 py-3 text-sm font-bold text-white shadow-lg glow-button hover:scale-[1.02] active:scale-[0.98] transition-all"
                 >
                     ⚡ Convert SVG to Favicon Now
@@ -103,7 +103,7 @@ export default function SvgToFaviconPage() {
                 <h2>Ready to Convert?</h2>
                 <p>
                     Head to our{' '}
-                    <Link href="/svg-to-ico-converter" className="text-violet-400 hover:underline">
+                    <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
                         Image to Favicon converter
                     </Link>{' '}
                     to create your favicon package in seconds.

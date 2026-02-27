@@ -25,7 +25,7 @@ export default function FaviconNextjsPage() {
                     Everything you need to know about adding favicons to your Next.js application, from generation to deployment.
                 </p>
                 <Link
-                    href="/svg-to-ico-converter"
+                    href="/image-to-favicon-converter"
                     className="inline-flex items-center gap-2 mt-6 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 px-6 py-3 text-sm font-bold text-white shadow-lg glow-button hover:scale-[1.02] active:scale-[0.98] transition-all"
                 >
                     ⚡ Generate Favicon Now
@@ -116,7 +116,7 @@ export default function Icon() {
                 <h2>Step-by-Step: Generate & Deploy</h2>
                 <ul>
                     <li><strong>Step 1:</strong> Create your logo in SVG format using Figma, Illustrator, or any vector editor</li>
-                    <li><strong>Step 2:</strong> Use our <Link href="/svg-to-ico-converter" className="text-violet-400 hover:underline">Image to Favicon converter</Link> to generate all favicon sizes</li>
+                    <li><strong>Step 2:</strong> Use our <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">Image to Favicon converter</Link> to generate all favicon sizes</li>
                     <li><strong>Step 3:</strong> Download the full favicon package (ZIP)</li>
                     <li><strong>Step 4:</strong> Extract and copy all files to your <code>public/</code> directory</li>
                     <li><strong>Step 5:</strong> Add the metadata configuration to your <code>layout.tsx</code></li>
@@ -145,7 +145,7 @@ export default function Icon() {
                 <h2>Generate Your Next.js Favicon</h2>
                 <p>
                     Ready to create a perfect favicon for your Next.js app? Use our{' '}
-                    <Link href="/svg-to-ico-converter" className="text-violet-400 hover:underline">
+                    <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
                         free Image to Favicon converter
                     </Link>{' '}
                     to generate all the files you need in seconds.

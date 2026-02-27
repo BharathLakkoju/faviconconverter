@@ -25,7 +25,7 @@ export default function Header() {
                     {/* Desktop Nav */}
                     <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
                         {[
-                            { href: '/svg-to-ico-converter', label: 'Converter' },
+                            { href: '/image-to-favicon-converter', label: 'Converter' },
                             { href: '/favicon-generator', label: 'Favicon Generator' },
                             { href: '/how-to-create-favicon', label: 'Guide' },
                         ].map((link) => (
@@ -64,7 +64,7 @@ export default function Header() {
                 {mobileOpen && (
                     <nav className="md:hidden border-t border-border py-3 space-y-1" aria-label="Mobile navigation">
                         {[
-                            { href: '/svg-to-ico-converter', label: 'Converter' },
+                            { href: '/image-to-favicon-converter', label: 'Converter' },
                             { href: '/favicon-generator', label: 'Favicon Generator' },
                             { href: '/how-to-create-favicon', label: 'Guide' },
                         ].map((link) => (

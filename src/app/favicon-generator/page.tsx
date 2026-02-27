@@ -25,7 +25,7 @@ export default function FaviconGeneratorPage() {
                     Create professional favicons from your SVG files. Generate all the icons your website needs in one click.
                 </p>
                 <Link
-                    href="/svg-to-ico-converter"
+                    href="/image-to-favicon-converter"
                     className="inline-flex items-center gap-2 mt-6 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 px-6 py-3 text-sm font-bold text-white shadow-lg glow-button hover:scale-[1.02] active:scale-[0.98] transition-all"
                 >
                     ⚡ Open Converter Tool
@@ -130,7 +130,7 @@ export default function FaviconGeneratorPage() {
                 <h2>Start Creating Your Favicon</h2>
                 <p>
                     Ready to generate your favicon? Head to our{' '}
-                    <Link href="/svg-to-ico-converter" className="text-violet-400 hover:underline">
+                    <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
                         Image to Favicon converter
                     </Link>{' '}
                     to get started. It&apos;s free, fast, and your files stay completely private.

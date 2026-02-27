@@ -5,7 +5,13 @@ const BASE_URL = 'https://svgtoico.dev';
 export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
-            url: `${BASE_URL}/svg-to-ico-converter`,
+            url: BASE_URL,
+            lastModified: new Date(),
+            changeFrequency: 'weekly',
+            priority: 1,
+        },
+        {
+            url: `${BASE_URL}/image-to-favicon-converter`,
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 1,
