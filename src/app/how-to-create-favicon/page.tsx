@@ -9,6 +9,23 @@ export const metadata: Metadata = {
     alternates: {
         canonical: '/how-to-create-favicon',
     },
+    openGraph: {
+        title: 'How to Create a Favicon – Complete Step-by-Step Guide (2026)',
+        description:
+            'Learn how to create a favicon for your website from scratch. Covers design tips, sizes, formats, HTML integration, and deployment. Updated for 2026.',
+        url: '/how-to-create-favicon',
+        type: 'article',
+        locale: 'en_US',
+        siteName: 'faviconverter',
+        images: ['/og-image.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'How to Create a Favicon – Complete Step-by-Step Guide (2026)',
+        description:
+            'Learn how to create a favicon for your website from scratch. Covers design tips, sizes, formats, HTML integration, and deployment. Updated for 2026.',
+        images: ['/og-image.png'],
+    },
 };
 
 export default function HowToCreateFaviconPage() {

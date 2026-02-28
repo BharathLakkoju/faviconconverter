@@ -22,6 +22,23 @@ export const metadata: Metadata = {
         'jpeg to favicon',
         'webp to favicon',
     ],
+    openGraph: {
+        title: 'Free faviconverter – PNG, SVG, JPEG to ICO Online',
+        description:
+            'Convert any image to favicon.ico online for free. Upload PNG, SVG, JPEG, WebP and generate multi-size website icons. Create favicons for your web apps instantly. 100% client-side — your files never leave your browser.',
+        url: '/image-to-favicon-converter',
+        type: 'website',
+        locale: 'en_US',
+        siteName: 'faviconverter',
+        images: ['/og-image.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Free faviconverter – PNG, SVG, JPEG to ICO Online',
+        description:
+            'Convert any image to favicon.ico online for free. Upload PNG, SVG, JPEG, WebP and generate multi-size website icons. Create favicons for your web apps instantly. 100% client-side — your files never leave your browser.',
+        images: ['/og-image.png'],
+    },
 };
 
 const faqSchema = {

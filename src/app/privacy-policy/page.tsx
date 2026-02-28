@@ -3,6 +3,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'Privacy Policy | faviconverter',
     description: 'Privacy policy for faviconverter. Your files never leave your browser.',
+    alternates: {
+        canonical: '/privacy-policy',
+    },
 };
 
 export default function PrivacyPolicyPage() {

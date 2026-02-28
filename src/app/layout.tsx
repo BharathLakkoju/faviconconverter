@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://svgtoico.dev"),
+  metadataBase: new URL("https://faviconverter.cc"),
   title: {
     default: "Free faviconverter – Generate Website Icons Online",
     template: "%s | faviconverter",

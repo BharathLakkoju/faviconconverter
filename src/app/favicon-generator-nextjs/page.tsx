@@ -9,6 +9,23 @@ export const metadata: Metadata = {
     alternates: {
         canonical: '/favicon-generator-nextjs',
     },
+    openGraph: {
+        title: 'Favicon Generator for Next.js – Add Favicon to Next.js App',
+        description:
+            'Complete guide to adding favicons in Next.js. Generate favicon.ico from SVG, configure App Router metadata, and deploy to Vercel. Step-by-step with code examples.',
+        url: '/favicon-generator-nextjs',
+        type: 'article',
+        locale: 'en_US',
+        siteName: 'faviconverter',
+        images: ['/og-image.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Favicon Generator for Next.js – Add Favicon to Next.js App',
+        description:
+            'Complete guide to adding favicons in Next.js. Generate favicon.ico from SVG, configure App Router metadata, and deploy to Vercel. Step-by-step with code examples.',
+        images: ['/og-image.png'],
+    },
 };
 
 export default function FaviconNextjsPage() {

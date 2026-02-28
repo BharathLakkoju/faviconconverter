@@ -9,6 +9,23 @@ export const metadata: Metadata = {
     alternates: {
         canonical: '/favicon-generator-react',
     },
+    openGraph: {
+        title: 'Favicon Generator for React – Add Favicon to React App',
+        description:
+            'How to add a favicon to your React app. Works with Create React App, Vite, and custom setups. Generate favicon from SVG, add HTML tags, and deploy.',
+        url: '/favicon-generator-react',
+        type: 'article',
+        locale: 'en_US',
+        siteName: 'faviconverter',
+        images: ['/og-image.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Favicon Generator for React – Add Favicon to React App',
+        description:
+            'How to add a favicon to your React app. Works with Create React App, Vite, and custom setups. Generate favicon from SVG, add HTML tags, and deploy.',
+        images: ['/og-image.png'],
+    },
 };
 
 export default function FaviconReactPage() {

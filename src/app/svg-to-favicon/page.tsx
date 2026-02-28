@@ -9,6 +9,23 @@ export const metadata: Metadata = {
     alternates: {
         canonical: '/svg-to-favicon',
     },
+    openGraph: {
+        title: 'SVG to Favicon – Convert SVG to Favicon Online Free',
+        description:
+            'Convert any SVG file to a professional favicon package. Supports multi-size ICO, Apple Touch Icons, and PWA icons. Free and 100% private.',
+        url: '/svg-to-favicon',
+        type: 'website',
+        locale: 'en_US',
+        siteName: 'faviconverter',
+        images: ['/og-image.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'SVG to Favicon – Convert SVG to Favicon Online Free',
+        description:
+            'Convert any SVG file to a professional favicon package. Supports multi-size ICO, Apple Touch Icons, and PWA icons. Free and 100% private.',
+        images: ['/og-image.png'],
+    },
 };
 
 export default function SvgToFaviconPage() {

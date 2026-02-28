@@ -8,6 +8,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  openGraph: {
+    title: 'Free faviconverter – Generate Website Icons Online',
+    description:
+      'Convert PNG, SVG, JPEG, WebP to favicon.ico online for free. Generate multi-size website icons and favicons for Next.js, React, and any web app. 100% client-side — your files never leave your browser.',
+    url: '/',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'faviconverter',
+    images: ['/og-image.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Free faviconverter – Generate Website Icons Online',
+    description:
+      'Convert PNG, SVG, JPEG, WebP to favicon.ico online for free. Generate multi-size website icons and favicons for Next.js, React, and any web app. 100% client-side — your files never leave your browser.',
+    images: ['/og-image.png'],
+  },
 };
 
 export default function HomePage() {

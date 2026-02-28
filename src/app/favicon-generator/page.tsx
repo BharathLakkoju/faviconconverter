@@ -9,6 +9,23 @@ export const metadata: Metadata = {
     alternates: {
         canonical: '/favicon-generator',
     },
+    openGraph: {
+        title: 'Free Favicon Generator – Create Favicon from SVG Online',
+        description:
+            'Generate perfect favicons from SVG files. Multi-size favicon.ico, Apple Touch Icons, Android Chrome icons, and web manifest — all in one package. Free and private.',
+        url: '/favicon-generator',
+        type: 'website',
+        locale: 'en_US',
+        siteName: 'faviconverter',
+        images: ['/og-image.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Free Favicon Generator – Create Favicon from SVG Online',
+        description:
+            'Generate perfect favicons from SVG files. Multi-size favicon.ico, Apple Touch Icons, Android Chrome icons, and web manifest — all in one package. Free and private.',
+        images: ['/og-image.png'],
+    },
 };
 
 export default function FaviconGeneratorPage() {
