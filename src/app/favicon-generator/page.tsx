@@ -131,7 +131,7 @@ export default function FaviconGeneratorPage() {
                 <p>
                     Ready to generate your favicon? Head to our{' '}
                     <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
-                        Image to Favicon converter
+                        faviconverter
                     </Link>{' '}
                     to get started. It&apos;s free, fast, and your files stay completely private.
                 </p>

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://svgtoico.dev';
+const BASE_URL = 'https://faviconverter.cc';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     return [

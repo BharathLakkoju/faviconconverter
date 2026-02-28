@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Privacy Policy',
-    description: 'Privacy policy for Image to Favicon Converter. Your files never leave your browser.',
+    title: 'Privacy Policy | faviconverter',
+    description: 'Privacy policy for faviconverter. Your files never leave your browser.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -13,9 +13,9 @@ export default function PrivacyPolicyPage() {
             <div className="seo-content space-y-6">
                 <p><em>Last updated: February 2026</em></p>
 
-                <h2>Introduction</h2>
+                <h2>1. Information We Do Not Collect</h2>
                 <p>
-                    Image to Favicon Converter (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) is committed to protecting your
+                    <strong>faviconverter</strong> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) is committed to protecting your
                     privacy. This Privacy Policy explains how we handle information when you use our website and conversion tools.
                 </p>
 

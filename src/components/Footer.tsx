@@ -12,11 +12,11 @@ export default function Footer() {
                                 <img src="/logo.ico" alt="Favicon Converter" className="w-full h-full object-cover" />
                             </div>
                             <span className="text-base font-bold text-foreground">
-                                Favicon<span className="text-violet-600 dark:text-violet-400">Converter</span>
+                                favicon<span className="text-violet-600 dark:text-violet-400">verter</span>
                             </span>
                         </div>
                         <p className="text-sm text-muted leading-relaxed">
-                            Free, private, client-side image to favicon converter. Generate website icons from PNG, SVG, JPEG, WebP and more.
+                            Free, private, client-side faviconverter. Generate website icons from PNG, SVG, JPEG, WebP and more.
                         </p>
                     </div>
 
@@ -25,7 +25,7 @@ export default function Footer() {
                         <h4 className="text-sm font-semibold text-foreground mb-3">Tools</h4>
                         <ul className="space-y-2">
                             {[
-                                { href: '/image-to-favicon-converter', label: 'Image to Favicon Converter' },
+                                { href: '/image-to-favicon-converter', label: 'faviconverter' },
                                 { href: '/favicon-generator', label: 'Favicon Generator' },
                                 { href: '/svg-to-favicon', label: 'PNG to Favicon' },
                             ].map((link) => (
@@ -76,7 +76,7 @@ export default function Footer() {
 
                 <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3">
                     <p className="text-xs text-muted">
-                        © {new Date().getFullYear()} Image to Favicon Converter. All rights reserved.
+                        © {new Date().getFullYear()} faviconverter. All rights reserved.
                     </p>
                     <p className="text-xs text-muted flex items-center gap-1.5">
                         <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

@@ -104,7 +104,7 @@ export default function SvgToFaviconPage() {
                 <p>
                     Head to our{' '}
                     <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
-                        Image to Favicon converter
+                        faviconverter
                     </Link>{' '}
                     to create your favicon package in seconds.
                 </p>

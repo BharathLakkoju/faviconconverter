@@ -18,7 +18,7 @@ export default function Header() {
                             <img src="/logo.ico" alt="Favicon Converter" className="w-full h-full object-cover" />
                         </div>
                         <span className="text-base font-bold text-foreground hidden sm:block">
-                            Favicon<span className="text-violet-600 dark:text-violet-400">Converter</span>
+                            favicon<span className="text-violet-600 dark:text-violet-400">verter</span>
                         </span>
                     </Link>
 

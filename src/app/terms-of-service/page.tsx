@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Terms of Service',
-    description: 'Terms of service for Image to Favicon Converter.',
+    title: 'Terms of Service | faviconverter',
+    description: 'Terms of service for faviconverter.',
 };
 
 export default function TermsOfServicePage() {
@@ -13,15 +13,15 @@ export default function TermsOfServicePage() {
             <div className="seo-content space-y-6">
                 <p><em>Last updated: February 2026</em></p>
 
-                <h2>Acceptance of Terms</h2>
+                <h2>1. Acceptance of Terms</h2>
                 <p>
-                    By accessing and using Image to Favicon Converter (&ldquo;the Service&rdquo;), you agree to be bound by these Terms
+                    By accessing and using faviconverter (&ldquo;the Service&rdquo;), you agree to be bound by these Terms
                     of Service. If you do not agree, please do not use the Service.
                 </p>
 
-                <h2>Description of Service</h2>
+                <h2>2. Description of Service</h2>
                 <p>
-                    Image to Favicon Converter provides a free, browser-based tool for converting images to ICO format and generating
+                    faviconverter provides a free, browser-based tool for converting images to ICO format and generating
                     favicon packages. All processing is performed client-side in your browser.
                 </p>
 

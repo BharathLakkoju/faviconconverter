@@ -116,7 +116,7 @@ export default function Icon() {
                 <h2>Step-by-Step: Generate & Deploy</h2>
                 <ul>
                     <li><strong>Step 1:</strong> Create your logo in SVG format using Figma, Illustrator, or any vector editor</li>
-                    <li><strong>Step 2:</strong> Use our <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">Image to Favicon converter</Link> to generate all favicon sizes</li>
+                    <li><strong>Step 2:</strong> Use our <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">faviconverter</Link> to generate all favicon sizes</li>
                     <li><strong>Step 3:</strong> Download the full favicon package (ZIP)</li>
                     <li><strong>Step 4:</strong> Extract and copy all files to your <code>public/</code> directory</li>
                     <li><strong>Step 5:</strong> Add the metadata configuration to your <code>layout.tsx</code></li>
@@ -146,7 +146,7 @@ export default function Icon() {
                 <p>
                     Ready to create a perfect favicon for your Next.js app? Use our{' '}
                     <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
-                        free Image to Favicon converter
+                        free faviconverter
                     </Link>{' '}
                     to generate all the files you need in seconds.
                 </p>

@@ -40,7 +40,7 @@ export default function FaviconReactPage() {
                     Create React App comes with a default favicon. To replace it with your own:
                 </p>
                 <ul>
-                    <li>Generate your favicon package using our <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">Image to Favicon converter</Link></li>
+                    <li>Generate your favicon package using our <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">faviconverter</Link></li>
                     <li>Replace <code>public/favicon.ico</code> with your new ICO file</li>
                     <li>Add additional PNG files to the <code>public/</code> directory</li>
                     <li>Update <code>public/index.html</code> with the proper link tags</li>
@@ -151,7 +151,7 @@ function MyPage() {
                 <p>
                     Use our{' '}
                     <Link href="/image-to-favicon-converter" className="text-violet-400 hover:underline">
-                        free Image to Favicon converter
+                        free faviconverter
                     </Link>{' '}
                     to generate all the favicon files you need. Download the full package, extract to <code>public/</code>,
                     and you&apos;re done!

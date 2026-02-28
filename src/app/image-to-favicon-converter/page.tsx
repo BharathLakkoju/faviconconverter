@@ -3,7 +3,7 @@ import ConverterClient from '../svg-to-ico-converter/ConverterClient';
 import AdPlaceholder from '@/components/AdPlaceholder';
 
 export const metadata: Metadata = {
-    title: 'Free Image to Favicon Converter – PNG, SVG, JPEG to ICO Online',
+    title: 'Free faviconverter – PNG, SVG, JPEG to ICO Online',
     description:
         'Convert any image to favicon.ico online for free. Upload PNG, SVG, JPEG, WebP and generate multi-size website icons. Create favicons for your web apps instantly. 100% client-side — your files never leave your browser.',
     alternates: {
@@ -98,7 +98,7 @@ const faqSchema = {
 const toolSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    name: 'Image to Favicon Converter',
+    name: 'faviconverter',
     description: 'Convert PNG, SVG, JPEG, WebP and other image formats to ICO. Generate multi-size website favicons and icon packages for web apps.',
     applicationCategory: 'DeveloperApplication',
     operatingSystem: 'Any',
@@ -166,7 +166,7 @@ export default function ImageToFaviconConverterPage() {
                     <section>
                         <h2>Convert Any Image to Favicon</h2>
                         <p>
-                            Our <strong>image to favicon converter</strong> supports all popular image formats. Whether you have a
+                            Our <strong>faviconverter</strong> supports all popular image formats. Whether you have a
                             PNG logo, an SVG vector, a JPEG photo, or a WebP graphic — you can convert it to a multi-resolution
                             ICO file with a single click. No need to use separate tools for different formats.
                         </p>

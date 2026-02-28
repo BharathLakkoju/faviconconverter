@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Free Image to Favicon Converter – Generate Website Icons Online',
+  title: 'Free faviconverter – Generate Website Icons Online',
   description:
     'Convert PNG, SVG, JPEG, WebP to favicon.ico online for free. Generate multi-size website icons and favicons for Next.js, React, and any web app. 100% client-side — your files never leave your browser.',
   alternates: {
@@ -100,7 +100,7 @@ export default function HomePage() {
           Supported Input Formats
         </h2>
         <p className="text-muted mb-8 max-w-2xl mx-auto">
-          Our image to favicon converter accepts virtually every image format. No matter what format your logo is in, we can convert it.
+          Our faviconverter accepts virtually every image format. No matter what format your logo is in, we can convert it.
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           {['PNG', 'SVG', 'JPEG', 'WebP', 'GIF', 'BMP', 'TIFF', 'AVIF', 'ICO'].map((fmt) => (
@@ -173,9 +173,9 @@ export default function HomePage() {
       {/* SEO Content Keywords */}
       <section className="py-12 sm:py-16">
         <div className="seo-content">
-          <h2>Free Image to Favicon Converter</h2>
+          <h2>Free faviconverter</h2>
           <p>
-            Our <strong>image to favicon converter</strong> is the easiest way to create <strong>website favicons</strong> from
+            Our <strong>faviconverter</strong> is the easiest way to create <strong>website favicons</strong> from
             any image. Whether you need to convert a <strong>PNG to favicon</strong>, transform an <strong>SVG to ICO</strong>,
             or generate <strong>website top icons</strong> from a JPEG — our tool handles it all in seconds.
           </p>
