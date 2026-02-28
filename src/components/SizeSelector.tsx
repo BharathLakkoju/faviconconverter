@@ -78,21 +78,21 @@ export default function SizeSelector({ onChange }: SizeSelectorProps) {
                         ({selectedCount}/{sizes.length})
                     </span>
                 </h3>
-                <div className="flex gap-1.5">
+                <div className="flex rounded-lg bg-surface p-0.5 border border-border gap-1">
                     <button
                         onClick={() => setAll(true)}
-                        className={`rounded-lg px-3 py-1.5 text-xs font-semibold border transition-all ${allSelected
-                            ? 'bg-violet-600 text-white border-violet-600 shadow-sm shadow-violet-500/20'
-                            : 'border-border bg-surface text-muted hover:border-violet-400 hover:text-violet-600 dark:hover:text-violet-400'
+                        className={`rounded-md px-3 py-1.5 text-xs font-semibold transition-all ${allSelected
+                            ? 'bg-violet-600 text-white shadow-sm shadow-violet-500/30'
+                            : 'text-muted hover:text-foreground hover:bg-surface/80'
                             }`}
                     >
                         ✓ Select All
                     </button>
                     <button
                         onClick={() => setAll(false)}
-                        className={`rounded-lg px-3 py-1.5 text-xs font-semibold border transition-all ${noneSelected
-                            ? 'bg-gray-600 dark:bg-gray-500 text-white border-gray-600 dark:border-gray-500 shadow-sm'
-                            : 'border-border bg-surface text-muted hover:border-gray-400 hover:text-foreground'
+                        className={`rounded-md px-3 py-1.5 text-xs font-semibold transition-all ${noneSelected
+                            ? 'bg-gray-700 dark:bg-gray-600 text-white shadow-sm'
+                            : 'text-muted hover:text-foreground hover:bg-surface/80'
                             }`}
                     >
                         ✕ Clear All
@@ -110,33 +110,33 @@ export default function SizeSelector({ onChange }: SizeSelectorProps) {
                         tabIndex={0}
                         aria-pressed={s.selected}
                         onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(i); } }}
-                        className={`group relative flex items-center gap-4 rounded-xl border px-4 py-3.5 cursor-pointer transition-all duration-200 select-none ${s.selected
-                            ? 'border-violet-400 dark:border-violet-500/40 bg-violet-50 dark:bg-[#1e1535] shadow-sm shadow-violet-500/10'
-                            : 'border-border bg-white dark:bg-[#141218] hover:border-gray-300 dark:hover:border-gray-600'
+                        className={`group relative flex items-center gap-4 rounded-xl border px-4 py-3.5 cursor-pointer transition-all duration-200 select-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500/40 ${s.selected
+                            ? 'border-violet-500/70 dark:border-violet-400/70 bg-violet-500/5 dark:bg-violet-500/10 shadow-sm shadow-violet-500/20'
+                            : 'border-border bg-surface hover:border-violet-400/60 hover:bg-surface/80'
                             }`}
                     >
                         {/* Toggle switch */}
                         <div
-                            className={`relative flex-shrink-0 w-10 h-6 rounded-full transition-all duration-300 ${s.selected ? 'bg-violet-500' : 'bg-gray-300 dark:bg-gray-700'
+                            className={`relative shrink-0 w-10 h-6 rounded-full border border-black/5 dark:border-white/10 transition-all duration-300 ${s.selected ? 'bg-violet-500 shadow-[0_0_0_1px_rgba(129,140,248,0.5)]' : 'bg-gray-200 dark:bg-gray-700'
                                 }`}
                         >
                             <div
-                                className={`absolute top-0.5 w-5 h-5 rounded-full bg-white shadow-md transition-all duration-300 ${s.selected ? 'left-[18px]' : 'left-0.5'
+                                className={`absolute top-0.5 w-5 h-5 rounded-full bg-white dark:bg-gray-950 shadow-sm transition-all duration-300 ${s.selected ? 'left-[18px]' : 'left-0.5'
                                     }`}
                             />
                         </div>
 
                         {/* Emoji */}
-                        <span className="text-xl flex-shrink-0 w-8 text-center">{s.emoji}</span>
+                        <span className="text-xl shrink-0 w-8 text-center">{s.emoji}</span>
 
                         {/* Size info */}
                         <div className="flex-1 min-w-0">
                             <div className="flex items-baseline gap-2">
-                                <span className={`text-sm font-bold transition-colors ${s.selected ? 'text-gray-900 dark:text-white' : 'text-gray-400 dark:text-gray-500'
+                                <span className={`text-sm font-bold transition-colors ${s.selected ? 'text-foreground' : 'text-muted'
                                     }`}>
                                     {s.label}
                                 </span>
-                                <span className={`text-xs transition-colors ${s.selected ? 'text-violet-600 dark:text-violet-400' : 'text-gray-400 dark:text-gray-600'
+                                <span className={`text-xs transition-colors ${s.selected ? 'text-violet-600 dark:text-violet-300' : 'text-muted'
                                     }`}>
                                     {s.platform}
                                 </span>
@@ -144,7 +144,7 @@ export default function SizeSelector({ onChange }: SizeSelectorProps) {
                         </div>
 
                         {/* Visual size indicator bar */}
-                        <div className="hidden sm:flex items-center gap-2 flex-shrink-0">
+                        <div className="hidden sm:flex items-center gap-2 shrink-0">
                             <div
                                 className={`rounded transition-all ${s.selected
                                     ? 'bg-violet-400 dark:bg-violet-500'
@@ -164,7 +164,7 @@ export default function SizeSelector({ onChange }: SizeSelectorProps) {
                         {s.isCustom && (
                             <button
                                 onClick={(e) => { e.stopPropagation(); removeCustom(i); }}
-                                className="flex-shrink-0 w-6 h-6 rounded-md flex items-center justify-center text-xs text-red-400 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-500/10 transition-all"
+                                className="shrink-0 w-6 h-6 rounded-md flex items-center justify-center text-xs text-red-400 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-500/10 transition-all"
                                 title="Remove custom size"
                             >
                                 🗑️
